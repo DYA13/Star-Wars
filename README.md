@@ -28,7 +28,7 @@ Click the previous and next buttons on each category to view the information pro
 
         - HTML - Is used to build the structure of the pages.
         - CSS - Is used to style the pages
-        - Google Fonts and Icons - Is used to implement the icons and the fonts on the page
+        - Google Fonts - Is used to implement the icons and the fonts on the page
         - JavaScript - Functionality of the website includes, click events and search.
         - API (https://swapi.dev/)
 
@@ -46,8 +46,10 @@ To run this project, clone or download it from git hub. Using Live server or you
 
 linkedin:
 
-https://www.linkedin.com/in/yelena-japarova-99a75274/
+[link to my Linkedin page](https://www.linkedin.com/in/yelena-japarova-99a75274/)
 
 ## Live GitHub Pages Link
 
 The webpage address:
+
+[link to website Star Wars](https://dya13.github.io/Star-Wars/)

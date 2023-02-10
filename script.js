@@ -38,7 +38,6 @@ async function fetchPlanets() {
   document.querySelector('.overlay').classList.add('active');
   let results = await fetch(URL_Planets);
   const data = await results.json();
-  console.log(data)
   nextPlanets = data.next;
   previousPlanets = data.previous;
   let planets = data.results;
