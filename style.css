@@ -1,0 +1,154 @@
+body {
+    background-color: #010101;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("https://cdn.pixabay.com/photo/2023/01/04/14/38/star-wars-7696902__480.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Archivo', sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.9);
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+ 
+  }
+  
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+
+  }
+ 
+  h3 {
+  font-size: 20px;
+
+  }
+  .planets {
+    text-shadow: 1px 1px 1px #ffd700;
+
+  }
+  .starships {
+    text-shadow: 1px 1px 1px #fe0a0a;
+  
+  }
+  .people {
+    text-shadow: 1px 1px 1px #19f123;
+  }
+  
+  button {
+border-radius: 5px;
+font-size: 15px;
+width: 80px;
+
+
+
+  }
+  button:hover {
+    cursor: pointer;
+
+  }
+  
+  main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    
+  }
+
+  .main-title {
+    color: #0819d3;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: #FC0 1px 0 10px;
+    width: 90%;
+  
+    
+  }
+  .txt-shadow h2 {
+    color: #0819d3;
+    text-align: center;
+    font-size: 25px;
+    
+  }
+  
+  #ctn-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+  }
+  
+  #ctn-planets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.9);
+    width: 250px;
+    min-width: 250px;
+    text-align: center;
+    margin: 15px;
+    padding: 5px;  
+  }
+  
+  .card-planet {
+    border: 3px solid #ffd700;
+    text-shadow: 1px 1px 1px #ffd700;
+  }
+  
+  .card-starships {
+    border: 3px solid #fe0a0a;
+    text-shadow: 1px 1px 1px #fe0a0a;
+  }
+  
+  .card-people {
+    border: 3px solid #19f123;
+    text-shadow: 1px 1px 1px #19f123;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay.active {
+    display: flex;
+    cursor: wait;
+  }
+  
+  @media only screen and (max-width: 1000px){
+    body {
+      font-size: x-large;
+    }
+    nav {
+      height: 125px;
+    }
+  
+    button {
+      height: 20px;
+    }
+  }
